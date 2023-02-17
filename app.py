@@ -25,7 +25,7 @@ def create():
         title = request.form['title']
         content = request.form['content']
         
-        if not title:
+        if not title :
             flash('Title is required! ')
         elif not content:
             flash('Content is required!')
